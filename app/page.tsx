@@ -1,0 +1,10 @@
+"use client";
+import { useState } from "react";
+import TextRandomized from "./_components/text-randomized";
+export default function Home() {
+  return (
+    <div>
+      <TextRandomized text="創星實驗室" />
+    </div>
+  );
+}
