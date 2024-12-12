@@ -1,10 +1,10 @@
 "use client";
+import Scroll from "./_components/scroll";
 
-import TextRandomized from "./_components/text-randomized";
 export default function Home() {
   return (
     <div>
-      <TextRandomized text="創星實驗室" />
+      <Scroll />
     </div>
   );
 }

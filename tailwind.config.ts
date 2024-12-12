@@ -13,6 +13,21 @@ export default {
         foreground: "var(--foreground)",
       },
     },
+    keyframes: {
+      twinkle: {
+        '0%': { opacity: '0' },
+        '50%': { opacity: '1' },
+        '100%': { opacity: '0' }
+      },
+      flowingLine: {
+        '0%': { backgroundPosition: '0 0' },
+        '100%': { backgroundPosition: '0 16px' }
+      }
+    },
+    animation: {
+      twinkle: 'twinkle 2s infinite',
+      'flowing-line': 'flowingLine 1s linear infinite'
+    }
   },
   plugins: [],
 } satisfies Config;
