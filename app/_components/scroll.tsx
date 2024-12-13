@@ -1,5 +1,5 @@
 'use client';
-import { ReactLenis, useLenis } from '@studio-freight/react-lenis'
+import { ReactLenis } from '@studio-freight/react-lenis'
 import Hero from './hero'
 export default function index(): JSX.Element {
   return (
